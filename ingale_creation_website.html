@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingale Creation - Frame Collection</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #111;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section.hero {
+      text-align: center;
+      padding: 2rem;
+      background: radial-gradient(#1a1a1a, #0d0d0d);
+    }
+    section.shop {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background: #1f1f1f;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 0.5rem 0 0.3rem;
+    }
+    .product p {
+      font-size: 0.9rem;
+    }
+    .order-btn {
+      margin-top: 0.5rem;
+      display: inline-block;
+      background: #e63946;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+    }
+    .contact, .about {
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 0.8rem 1.5rem;
+      background: #e63946;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 50px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/pKTtWsy/your-logo-sample.png" alt="Ingale Creation Logo">
+    <h1>Ingale Creation</h1>
+    <p>Frame Collection | Aesthetic | Premium | Handmade</p>
+  </header>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h2>Welcome to Ingale Creation</h2>
+    <p>Discover handcrafted frame collections with style and soul</p>
+  </section>
+  <section id="shop" class="shop">
+    <div class="product">
+      <img src="https://i.ibb.co/jvhcXKv/frame1.jpg" alt="Frame 1">
+      <h3>Modern Black Frame</h3>
+      <p>Perfect for modern home interiors.</p>
+      <a class="order-btn" href="https://wa.me/91XXXXXXXXXX">Order on WhatsApp</a>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/hVsvRzZ/frame2.jpg" alt="Frame 2">
+      <h3>Golden Edge Frame</h3>
+      <p>Luxury design for classic settings.</p>
+      <a class="order-btn" href="https://wa.me/91XXXXXXXXXX">Order on WhatsApp</a>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/1GWWJtc/frame3.jpg" alt="Frame 3">
+      <h3>Wooden Rustic Frame</h3>
+      <p>Bring earthy tones to your decor.</p>
+      <a class="order-btn" href="https://wa.me/91XXXXXXXXXX">Order on WhatsApp</a>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Ingale Creation offers a curated selection of handcrafted and premium quality frames. Whether it’s a gift or home decor, our products combine style and soul for every moment that matters.</p>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <a id="whatsapp-float" href="https://wa.me/91XXXXXXXXXX" target="_blank">Chat on WhatsApp</a>
+  <footer>
+    <p>&copy; 2025 Ingale Creation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
